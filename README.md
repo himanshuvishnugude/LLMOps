@@ -10,7 +10,7 @@ The application generates an LLM response based on a user prompt. The generated 
 
 The evaluation results are calculated individually, stored in a logging system, and subsequently retrieved by the application model for structured storage and display.
 
-The main objective is to measure LLM response quality, identify hallucinations, and maintain evaluation records for monitoring and analysis.
+The main objective is to measure LLM response quality, identify hallucinations, and maintain evaluation records for monitoring and analysis..
 
 ## 🏗️ System Architecture
 
@@ -91,25 +91,10 @@ The project follows the workflow below:
 - Retrieve and display evaluation results through the application.
 - Enable continuous monitoring and analysis of LLM performance.
 
-## 🛠️ Key Components
-
-| Component | Responsibility |
-|---|---|
-| Application | Accepts prompts and initiates LLM requests |
-| LLM | Generates responses |
-| Ground Truth JSON | Provides reference answers |
-| Evaluation Engine | Calculates accuracy, faithfulness, and hallucination metrics |
-| Logging System | Records evaluation results |
-| log.jsonl | Maintains individual evaluation records |
-| Application Model | Retrieves, structures, and stores evaluation data |
-| Display Layer | Presents evaluation results |
-
 ## 📊 Evaluation Metrics
 
 The system focuses on three primary evaluation dimensions:
 
-| Metric | Purpose |
-|---|---|
 | Accuracy | Measures correctness against Ground Truth |
 | Faithfulness | Measures whether the response is supported by reference information |
 | Hallucination | Detects unsupported or fabricated claims |
