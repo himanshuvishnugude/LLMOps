@@ -10,7 +10,7 @@ The application generates an LLM response based on a user prompt. The generated 
 
 The evaluation results are calculated individually, stored in a logging system, and subsequently retrieved by the application model for structured storage and display.
 
-The main objective is to measure LLM response quality, identify hallucinations, and maintain evaluation records for monitoring and analysis.
+The main objective is to measure LLM response quality, identify hallucinations, and maintain evaluation records for monitoring and analysis..
 
 ## 🏗️ System Architecture
 
